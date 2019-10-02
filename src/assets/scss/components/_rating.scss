@@ -1,0 +1,8 @@
+.star-ratings {
+  color: $orange;
+
+  & > * {
+    margin-right: .25rem;
+    cursor: pointer;
+  }
+}

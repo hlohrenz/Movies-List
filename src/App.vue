@@ -1,28 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app" class="container py-3">
+        <MovieModal></MovieModal>
+
+        <div class="text-right">
+            <b-button v-b-modal.modal-movie variant="primary">Add Movie</b-button>
+        </div>
+
+        <hr />
+
+        <h3>Movie Results</h3>
+        <MovieList></MovieList>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import MovieModal from './components/MovieModal.vue'
+  import MovieList from './components/MovieList.vue'
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
+  export default {
+    name: 'app',
+
+    components: {
+      MovieModal,
+      MovieList
+    }
   }
-}
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
