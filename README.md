@@ -1,5 +1,7 @@
 # movie-list
 
+This was done for a potential hiring process. This shows the use of Vue, Vue Bootstrap, and Vuex technologies.
+
 ## Project setup
 ```
 npm install
