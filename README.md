@@ -1,6 +1,7 @@
 # movie-list
 
 This was done for a potential hiring process. This shows the use of Vue, Vue Bootstrap, and Vuex technologies.
+You can view the demo at: http://lacunacube.com/projects-live/movie-list/index.html
 
 ## Project setup
 ```
